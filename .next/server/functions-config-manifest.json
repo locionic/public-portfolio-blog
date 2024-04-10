@@ -7,8 +7,6 @@
     "/blog/page/[page]": {},
     "/bucketlist": {},
     "/project/[...slug]": {},
-    "/project": {},
-    "/projects": {},
     "/tags/[tag]": {},
     "/tags": {}
   }

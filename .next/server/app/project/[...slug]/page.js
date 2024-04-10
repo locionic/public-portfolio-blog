@@ -330,6 +330,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+//   // https://raw.githubusercontent.com/johnpolacek/nextjs-mdx-blog-starter/main/src/mdx/about.mdx
+//   // https://raw.githubusercontent.com/rajeshdavidbabu/remix-mdx-blog/master/app/routes/_mdx.blog.markdown-test.mdx
+//   // https://raw.githubusercontent.com/alexcarpenter/nextjs-mdx-blog-theme/main/posts/kitchen-sink.mdx
+//   const res = await fetch('https://raw.githubusercontent.com/tszhong0411/nextjs-mdx-blog/main/data/blog/markdown.mdx')
 
 
 
@@ -342,13 +346,11 @@ __webpack_require__.r(__webpack_exports__);
 const defaultLayout = "PostLayout";
 const layouts = {
     PostSimple: _layouts_PostSimple__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z,
-    PostLayout: _layouts_PostLayout__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z,
+    PostLayout: _layouts_PostLayout__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .ZP,
     PostBanner: _layouts_PostBanner__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z
 };
 async function generateMetadata({ params }) {
-    console.log("inside generateMetadata");
     const slug = decodeURI(params.slug.join("/"));
-    console.log(slug);
     const post = contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allProjects */ .c8.find((p)=>p.slug === slug);
     const authorList = post?.authors || [
         "default"
@@ -357,10 +359,6 @@ async function generateMetadata({ params }) {
         const authorResults = contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allAuthors */ .wz.find((p)=>p.slug === author);
         return (0,pliny_utils_contentlayer__WEBPACK_IMPORTED_MODULE_6__/* .coreContent */ .gT)(authorResults);
     });
-    const postUrls = contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allProjects */ .c8.map((post)=>post);
-    console.log(`Found ${postUrls.length} posts:`);
-    console.log(postUrls);
-    console.log("not found?");
     if (!post) {
         return;
     }
@@ -379,30 +377,6 @@ async function generateMetadata({ params }) {
         return {
             url: img.includes("http") ? img : (_data_siteMetadata__WEBPACK_IMPORTED_MODULE_11___default().siteUrl) + img
         };
-    });
-    console.log({
-        title: post.title,
-        description: post.summary,
-        openGraph: {
-            title: post.title,
-            description: post.summary,
-            siteName: (_data_siteMetadata__WEBPACK_IMPORTED_MODULE_11___default().title),
-            locale: "en_US",
-            type: "article",
-            publishedTime: publishedAt,
-            modifiedTime: modifiedAt,
-            url: "./",
-            images: ogImages,
-            authors: authors.length > 0 ? authors : [
-                (_data_siteMetadata__WEBPACK_IMPORTED_MODULE_11___default().author)
-            ]
-        },
-        twitter: {
-            card: "summary_large_image",
-            title: post.title,
-            description: post.summary,
-            images: imageList
-        }
     });
     return {
         title: post.title,
@@ -430,12 +404,9 @@ async function generateMetadata({ params }) {
     };
 }
 const generateStaticParams = async ()=>{
-    console.log("inside generateStaticParams?");
-    console.log(contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allProjects */ .c8);
     const paths = contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allProjects */ .c8.map((p)=>({
             slug: p.slug.split("/")
         }));
-    console.log(paths);
     return paths;
 };
 async function Page({ params }) {
@@ -512,7 +483,7 @@ async function Page({ params }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,662,86,226,327,508,199,474], () => (__webpack_exec__(95619)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,380,899,451,970,327,306,199,202], () => (__webpack_exec__(95619)));
 module.exports = __webpack_exports__;
 
 })();

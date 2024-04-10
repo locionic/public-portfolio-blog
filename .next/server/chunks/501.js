@@ -1185,7 +1185,7 @@ Object.defineProperty(exports, "isValidSpanId", ({
         return spancontext_utils_1.isValidSpanId;
     }
 }));
-var invalid_span_constants_1 = __webpack_require__(28405);
+var invalid_span_constants_1 = __webpack_require__(9808);
 Object.defineProperty(exports, "INVALID_SPANID", ({
     enumerable: true,
     get: function() {
@@ -1941,7 +1941,7 @@ const trace_1 = __webpack_require__(95953);
     value: true
 }));
 exports.NonRecordingSpan = void 0;
-const invalid_span_constants_1 = __webpack_require__(28405);
+const invalid_span_constants_1 = __webpack_require__(9808);
 /**
  * The NonRecordingSpan is the default {@link Span} that is used when no Span
  * implementation is available. All operations are no-op including context
@@ -2526,7 +2526,7 @@ exports.createTraceState = createTraceState; //# sourceMappingURL=utils.js.map
 
 /***/ }),
 
-/***/ 28405:
+/***/ 9808:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2630,7 +2630,7 @@ exports.wrapSpanContext = exports.isSpanContextValid = exports.isValidSpanId = e
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const invalid_span_constants_1 = __webpack_require__(28405);
+ */ const invalid_span_constants_1 = __webpack_require__(9808);
 const NonRecordingSpan_1 = __webpack_require__(87751);
 const VALID_TRACEID_REGEX = /^([0-9a-f]{32})$/i;
 const VALID_SPANID_REGEX = /^[0-9a-f]{16}$/i;

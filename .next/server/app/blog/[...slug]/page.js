@@ -342,11 +342,10 @@ __webpack_require__.r(__webpack_exports__);
 const defaultLayout = "PostLayout";
 const layouts = {
     PostSimple: _layouts_PostSimple__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z,
-    PostLayout: _layouts_PostLayout__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z,
+    PostLayout: _layouts_PostLayout__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .ZP,
     PostBanner: _layouts_PostBanner__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z
 };
 async function generateMetadata({ params }) {
-    console.log("inside generateMetadata");
     const slug = decodeURI(params.slug.join("/"));
     const post = contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allBlogs */ .R6.find((p)=>p.slug === slug);
     const authorList = post?.authors || [
@@ -375,30 +374,6 @@ async function generateMetadata({ params }) {
             url: img.includes("http") ? img : (_data_siteMetadata__WEBPACK_IMPORTED_MODULE_11___default().siteUrl) + img
         };
     });
-    console.log({
-        title: post.title,
-        description: post.summary,
-        openGraph: {
-            title: post.title,
-            description: post.summary,
-            siteName: (_data_siteMetadata__WEBPACK_IMPORTED_MODULE_11___default().title),
-            locale: "en_US",
-            type: "article",
-            publishedTime: publishedAt,
-            modifiedTime: modifiedAt,
-            url: "./",
-            images: ogImages,
-            authors: authors.length > 0 ? authors : [
-                (_data_siteMetadata__WEBPACK_IMPORTED_MODULE_11___default().author)
-            ]
-        },
-        twitter: {
-            card: "summary_large_image",
-            title: post.title,
-            description: post.summary,
-            images: imageList
-        }
-    });
     return {
         title: post.title,
         description: post.summary,
@@ -425,11 +400,9 @@ async function generateMetadata({ params }) {
     };
 }
 const generateStaticParams = async ()=>{
-    console.log("inside generateStaticParams");
     const paths = contentlayer_generated__WEBPACK_IMPORTED_MODULE_7__/* .allBlogs */ .R6.map((p)=>({
             slug: p.slug.split("/")
         }));
-    console.log(paths);
     return paths;
 };
 async function Page({ params }) {
@@ -506,7 +479,7 @@ async function Page({ params }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,662,86,226,327,508,199,474], () => (__webpack_exec__(29493)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,380,899,451,970,327,306,199,202], () => (__webpack_exec__(29493)));
 module.exports = __webpack_exports__;
 
 })();

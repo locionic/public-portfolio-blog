@@ -1393,8 +1393,11 @@ var ai_index_esm = __webpack_require__(15816);
 var Work = __webpack_require__(32371);
 // EXTERNAL MODULE: ./node_modules/react-modal-video/lib/index.js
 var lib = __webpack_require__(52679);
+// EXTERNAL MODULE: ./components/Link.tsx
+var Link = __webpack_require__(62108);
 ;// CONCATENATED MODULE: ./app/portfolio/container/Work/Work.jsx
 /* eslint-disable */ /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -1469,9 +1472,9 @@ const Work_Work = ()=>{
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(lib/* default */.Z, {
-                channel: "custom",
+                channel: "youtube",
                 isOpen: isOpen,
-                url: videoUrl,
+                videoId: videoUrl.split("be/")[1],
                 onClose: ()=>setOpen(false)
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -1491,7 +1494,6 @@ const Work_Work = ()=>{
                 className: "app__work-portfolio",
                 children: filterWork.map((work, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "app__work-item app__flex",
-                        onClick: ()=>router.push(`/project/${work.mdxUrl}`),
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: "app__work-img app__flex",
@@ -1605,6 +1607,12 @@ const Work_Work = ()=>{
                                             __html: work.description
                                         }
                                     }),
+                                    work.mdxUrl && /*#__PURE__*/ jsx_runtime_.jsx(Link/* default */.Z, {
+                                        href: "/project/" + work.mdxUrl,
+                                        className: "text-sm font-light leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 self-start",
+                                        "aria-label": `Link to ${work.title}`,
+                                        children: "Read more →"
+                                    }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         className: "mt-4 flex flex-row flex-wrap gap-1 text-sm sm:text-xs",
                                         children: work.tags.map((ele, tagIndex)=>/*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -1652,26 +1660,6 @@ const App_App = ()=>{
             window.removeEventListener("scroll", scrollFunction);
         };
     }, []);
-    function isElementOutViewport(el) {
-        var rect = el.getBoundingClientRect();
-        return rect.bottom < 0 || rect.right < 0 || rect.left > window.innerWidth || rect.top > window.innerHeight;
-    }
-    function isElementPartiallyInViewport(el) {
-        var rect = el.getBoundingClientRect();
-        // DOMRect { x: 8, y: 8, width: 100, height: 100, top: 8, right: 108, bottom: 108, left: 8 }
-        var windowHeight = window.innerHeight || document.documentElement.clientHeight;
-        var windowWidth = window.innerWidth || document.documentElement.clientWidth;
-        // http://stackoverflow.com/questions/325933/determine-whether-two-date-ranges-overlap
-        var vertInView = rect.top <= windowHeight && rect.top + rect.height >= 0;
-        var horInView = rect.left <= windowWidth && rect.left + rect.width >= 0;
-        return vertInView && horInView;
-    }
-    function isElementInViewport(el) {
-        var rect = el.getBoundingClientRect();
-        var windowHeight = window.innerHeight || document.documentElement.clientHeight;
-        var windowWidth = window.innerWidth || document.documentElement.clientWidth;
-        return rect.left >= 0 && rect.top >= 0 && rect.left + rect.width <= windowWidth && rect.top + rect.height <= windowHeight;
-    }
     function isInView(el) {
         const box = el.getBoundingClientRect();
         return box.top < window.innerHeight && box.bottom >= 10;
@@ -1817,7 +1805,7 @@ var portfolio = __webpack_require__(24694);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,155,125,327,508,480], () => (__webpack_exec__(89436)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,616,125,327,306,480], () => (__webpack_exec__(89436)));
 module.exports = __webpack_exports__;
 
 })();

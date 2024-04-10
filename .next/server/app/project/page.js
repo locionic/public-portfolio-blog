@@ -1,4 +1,3 @@
-"use strict";
 (() => {
 var exports = {};
 exports.id = 880;
@@ -8,6 +7,7 @@ exports.modules = {
 /***/ 18038:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/compiled/react");
 
 /***/ }),
@@ -15,6 +15,7 @@ module.exports = require("next/dist/compiled/react");
 /***/ 98704:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
 
 /***/ }),
@@ -22,6 +23,7 @@ module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
 /***/ 97897:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
 
 /***/ }),
@@ -29,6 +31,7 @@ module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
 /***/ 56786:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
@@ -36,6 +39,7 @@ module.exports = require("next/dist/compiled/react/jsx-runtime");
 /***/ 5868:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/app-render/app-render");
 
 /***/ }),
@@ -43,6 +47,7 @@ module.exports = require("next/dist/server/app-render/app-render");
 /***/ 41844:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/app-render/get-segment-param");
 
 /***/ }),
@@ -50,6 +55,7 @@ module.exports = require("next/dist/server/app-render/get-segment-param");
 /***/ 96624:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/future/helpers/interception-routes");
 
 /***/ }),
@@ -57,6 +63,7 @@ module.exports = require("next/dist/server/future/helpers/interception-routes");
 /***/ 75281:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/future/route-modules/route-module");
 
 /***/ }),
@@ -64,6 +71,7 @@ module.exports = require("next/dist/server/future/route-modules/route-module");
 /***/ 57085:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/app-router-context");
 
 /***/ }),
@@ -71,6 +79,7 @@ module.exports = require("next/dist/shared/lib/app-router-context");
 /***/ 1830:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/get-img-props");
 
 /***/ }),
@@ -78,6 +87,7 @@ module.exports = require("next/dist/shared/lib/get-img-props");
 /***/ 20199:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/hash");
 
 /***/ }),
@@ -85,6 +95,7 @@ module.exports = require("next/dist/shared/lib/hash");
 /***/ 66864:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/head");
 
 /***/ }),
@@ -92,6 +103,7 @@ module.exports = require("next/dist/shared/lib/head");
 /***/ 86819:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/head-manager-context");
 
 /***/ }),
@@ -99,6 +111,7 @@ module.exports = require("next/dist/shared/lib/head-manager-context");
 /***/ 39569:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/hooks-client-context");
 
 /***/ }),
@@ -106,6 +119,7 @@ module.exports = require("next/dist/shared/lib/hooks-client-context");
 /***/ 52210:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/image-config");
 
 /***/ }),
@@ -113,6 +127,7 @@ module.exports = require("next/dist/shared/lib/image-config");
 /***/ 35359:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/image-config-context");
 
 /***/ }),
@@ -120,6 +135,7 @@ module.exports = require("next/dist/shared/lib/image-config-context");
 /***/ 17160:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router-context");
 
 /***/ }),
@@ -127,6 +143,7 @@ module.exports = require("next/dist/shared/lib/router-context");
 /***/ 30893:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
@@ -134,6 +151,7 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 /***/ 12336:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/format-url");
 
 /***/ }),
@@ -141,6 +159,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url");
 /***/ 17887:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll");
 
 /***/ }),
@@ -148,6 +167,7 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 /***/ 98735:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
 
 /***/ }),
@@ -155,6 +175,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-bot");
 /***/ 60120:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
@@ -162,6 +183,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 /***/ 68231:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/parse-path");
 
 /***/ }),
@@ -169,6 +191,7 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-path");
 /***/ 54614:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix");
 
 /***/ }),
@@ -176,6 +199,7 @@ module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix");
 /***/ 53750:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash");
 
 /***/ }),
@@ -183,6 +207,7 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 /***/ 70982:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
 
 /***/ }),
@@ -190,6 +215,7 @@ module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
 /***/ 79618:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
 
 /***/ }),
@@ -197,6 +223,7 @@ module.exports = require("next/dist/shared/lib/server-inserted-html");
 /***/ 78423:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
@@ -204,13 +231,127 @@ module.exports = require("next/dist/shared/lib/utils");
 /***/ 80268:
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/utils/warn-once");
+
+/***/ }),
+
+/***/ 39491:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ 14300:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ 82361:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ 13685:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ 95687:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ 41808:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ 22037:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ 63477:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("querystring");
+
+/***/ }),
+
+/***/ 12781:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ 24404:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ 76224:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ 57310:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ 73837:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ 59796:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ }),
 
 /***/ 46926:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),
@@ -293,54 +434,133 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 85416:
+/***/ 47470:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9086))
+
+/***/ }),
+
+/***/ 9086:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Projects),
-/* harmony export */   metadata: () => (/* binding */ metadata)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _data_projectsData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(52107);
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4663);
-/* harmony import */ var app_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(85709);
 
-
-
-
-const metadata = (0,app_seo__WEBPACK_IMPORTED_MODULE_3__/* .genPageMetadata */ .D)({
-    title: "Projects"
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Projects)
 });
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(56786);
+// EXTERNAL MODULE: ./components/Image.tsx
+var Image = __webpack_require__(33603);
+// EXTERNAL MODULE: ./components/Link.tsx
+var Link = __webpack_require__(62108);
+;// CONCATENATED MODULE: ./components/Card.tsx
+
+
+
+const Card = ({ title, description, imgSrc, href })=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: "md max-w-[544px] p-4 md:w-1/2",
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "h-full",
+            children: [
+                imgSrc && (href ? /*#__PURE__*/ jsx_runtime_.jsx(Link/* default */.Z, {
+                    href: "/project/" + href,
+                    "aria-label": `Link to ${title}`,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(Image/* default */.Z, {
+                        alt: title,
+                        src: imgSrc,
+                        // className="object-cover object-center "
+                        className: "object-cover object-center md:h-36 lg:h-48",
+                        width: 544,
+                        // height={380}
+                        height: 306
+                    })
+                }) : /*#__PURE__*/ jsx_runtime_.jsx(Image/* default */.Z, {
+                    alt: title,
+                    src: imgSrc,
+                    className: "object-cover object-center md:h-36 lg:h-48",
+                    width: 544,
+                    height: 306
+                })),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "p-6",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                            className: "mb-3 text-2xl font-bold leading-8 tracking-tight",
+                            children: href ? /*#__PURE__*/ jsx_runtime_.jsx(Link/* default */.Z, {
+                                href: "/project/" + href,
+                                "aria-label": `Link to ${title}`,
+                                children: title
+                            }) : title
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: "prose mb-3 max-w-none text-gray-500 dark:text-gray-400",
+                            dangerouslySetInnerHTML: {
+                                __html: description
+                            }
+                        }),
+                        href && /*#__PURE__*/ jsx_runtime_.jsx(Link/* default */.Z, {
+                            href: "/project/" + href,
+                            className: "text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400",
+                            "aria-label": `Link to ${title}`,
+                            children: "Read more →"
+                        })
+                    ]
+                })
+            ]
+        })
+    });
+/* harmony default export */ const components_Card = (Card);
+
+// EXTERNAL MODULE: ./app/portfolio/client.js
+var client = __webpack_require__(25480);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(18038);
+;// CONCATENATED MODULE: ./app/project/page.tsx
+/* eslint-disable */ /* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
 function Projects() {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    const [works, setWorks] = (0,react_.useState)([]);
+    (0,react_.useEffect)(()=>{
+        const query = '*[_type == "works"]';
+        client/* client */.L.fetch(query).then((data)=>{
+            setWorks(data);
+        });
+    }, []);
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "divide-y divide-gray-200 dark:divide-gray-700",
             children: [
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: "space-y-2 pb-8 pt-6 md:space-y-5",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                        /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                             className: "text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14",
                             children: "Projects"
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: "text-lg leading-7 text-gray-500 dark:text-gray-400",
-                            children: "My private projects what I'm working on."
+                            children: "My projects what I'm working on."
                         })
                     ]
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "container py-12",
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "-m-4 flex flex-wrap",
-                        children: _data_projectsData__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z.map((d)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Card__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                        children: works.map((d)=>/*#__PURE__*/ jsx_runtime_.jsx(components_Card, {
                                 title: d.title,
                                 description: d.description,
-                                imgSrc: d.imgSrc,
-                                href: d.href
-                            }, d.title))
+                                imgSrc: (0,client/* urlFor */.u)(d.imgUrl).url(),
+                                href: d.mdxUrl
+                            }, d._id))
                     })
                 })
             ]
@@ -348,6 +568,53 @@ function Projects() {
     });
 }
 
+
+/***/ }),
+
+/***/ 33603:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(52451);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const Image = ({ ...rest })=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+        ...rest
+    });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Image);
+
+
+/***/ }),
+
+/***/ 85416:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(61363);
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/loc/dyzio-blog/app/project/page.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ })
 
@@ -358,7 +625,7 @@ function Projects() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,662,327,508,809], () => (__webpack_exec__(46926)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,380,451,616,327,306,480], () => (__webpack_exec__(46926)));
 module.exports = __webpack_exports__;
 
 })();
