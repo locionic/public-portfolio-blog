@@ -1,17 +1,17 @@
-exports.id = 313;
-exports.ids = [313];
+exports.id = 202;
+exports.ids = [202];
 exports.modules = {
 
-/***/ 12275:
+/***/ 35879:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24941));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73453));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84944));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 56695));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45457))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84944));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 88886))
 
 /***/ }),
 
@@ -129,7 +129,7 @@ const ScrollTopAndComment = ()=>{
 
 /***/ }),
 
-/***/ 45457:
+/***/ 88886:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -164,17 +164,6 @@ function SectionContainer({ children }) {
     });
 }
 
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(52451);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-;// CONCATENATED MODULE: ./components/Image.tsx
-
-
-const Image = ({ ...rest })=>/*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-        ...rest
-    });
-/* harmony default export */ const components_Image = (Image);
-
 // EXTERNAL MODULE: ./data/siteMetadata.js
 var data_siteMetadata = __webpack_require__(68248);
 var siteMetadata_default = /*#__PURE__*/__webpack_require__.n(data_siteMetadata);
@@ -184,7 +173,6 @@ var ScrollTopAndComment = __webpack_require__(84944);
 var navigation = __webpack_require__(57114);
 ;// CONCATENATED MODULE: ./layouts/PostLayout.tsx
 /* eslint-disable */ /* __next_internal_client_entry_do_not_use__ default auto */ 
-
 
 
 
@@ -258,12 +246,19 @@ function PostLayout({ content, authorDetails, next, prev, children }) {
                                                 children: authorDetails.map((author)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
                                                         className: "flex items-center space-x-2",
                                                         children: [
-                                                            author.avatar && /*#__PURE__*/ jsx_runtime_.jsx(components_Image, {
+                                                            author.avatar && // <Image
+                                                            //   src={author.avatar}
+                                                            //   width={38}
+                                                            //   height={38}
+                                                            //   alt="avatar"
+                                                            //   className="h-10 w-10 rounded-full"
+                                                            // />
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                                 src: author.avatar,
-                                                                width: 38,
-                                                                height: 38,
                                                                 alt: "avatar",
-                                                                className: "h-10 w-10 rounded-full"
+                                                                className: "h-10 w-10 rounded-full",
+                                                                width: 38,
+                                                                height: 38
                                                             }),
                                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("dl", {
                                                                 className: "whitespace-nowrap text-sm font-medium leading-5",
