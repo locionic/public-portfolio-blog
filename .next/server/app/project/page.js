@@ -76,27 +76,11 @@ module.exports = require("next/dist/shared/lib/app-router-context");
 
 /***/ }),
 
-/***/ 1830:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/get-img-props");
-
-/***/ }),
-
 /***/ 20199:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/hash");
-
-/***/ }),
-
-/***/ 66864:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/head");
 
 /***/ }),
 
@@ -113,22 +97,6 @@ module.exports = require("next/dist/shared/lib/head-manager-context");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/hooks-client-context");
-
-/***/ }),
-
-/***/ 52210:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config");
-
-/***/ }),
-
-/***/ 35359:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config-context");
 
 /***/ }),
 
@@ -225,14 +193,6 @@ module.exports = require("next/dist/shared/lib/server-inserted-html");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/utils");
-
-/***/ }),
-
-/***/ 80268:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
@@ -455,12 +415,9 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(56786);
-// EXTERNAL MODULE: ./components/Image.tsx
-var Image = __webpack_require__(33603);
 // EXTERNAL MODULE: ./components/Link.tsx
 var Link = __webpack_require__(62108);
 ;// CONCATENATED MODULE: ./components/Card.tsx
-
 
 
 const Card = ({ title, description, imgSrc, href })=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -471,18 +428,23 @@ const Card = ({ title, description, imgSrc, href })=>/*#__PURE__*/ jsx_runtime_.
                 imgSrc && (href ? /*#__PURE__*/ jsx_runtime_.jsx(Link/* default */.Z, {
                     href: "/project/" + href,
                     "aria-label": `Link to ${title}`,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(Image/* default */.Z, {
-                        alt: title,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                         src: imgSrc,
-                        // className="object-cover object-center "
+                        alt: title,
                         className: "object-cover object-center md:h-36 lg:h-48",
                         width: 544,
-                        // height={380}
                         height: 306
                     })
-                }) : /*#__PURE__*/ jsx_runtime_.jsx(Image/* default */.Z, {
-                    alt: title,
+                }) : // <Image
+                //   alt={title}
+                //   src={imgSrc}
+                //   className="object-cover object-center md:h-36 lg:h-48"
+                //   width={544}
+                //   height={306}
+                // />
+                /*#__PURE__*/ jsx_runtime_.jsx("img", {
                     src: imgSrc,
+                    alt: title,
                     className: "object-cover object-center md:h-36 lg:h-48",
                     width: 544,
                     height: 306
@@ -558,7 +520,7 @@ function Projects() {
                         children: works.map((d)=>/*#__PURE__*/ jsx_runtime_.jsx(components_Card, {
                                 title: d.title,
                                 description: d.description,
-                                imgSrc: (0,client/* urlFor */.u)(d.imgUrl).url(),
+                                imgSrc: (0,client/* urlFor */.u)(d.imgUrl),
                                 href: d.mdxUrl
                             }, d._id))
                     })
@@ -567,27 +529,6 @@ function Projects() {
         })
     });
 }
-
-
-/***/ }),
-
-/***/ 33603:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(52451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-
-
-const Image = ({ ...rest })=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-        ...rest
-    });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Image);
 
 
 /***/ }),
@@ -625,7 +566,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,380,451,616,327,306,480], () => (__webpack_exec__(46926)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,616,327,587,480], () => (__webpack_exec__(46926)));
 module.exports = __webpack_exports__;
 
 })();

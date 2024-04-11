@@ -348,7 +348,7 @@ function genPageMetadata({ title, description, image, ...rest }) {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,194,327,306,199,978], () => (__webpack_exec__(20931)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,194,327,587,199,978], () => (__webpack_exec__(20931)));
 module.exports = __webpack_exports__;
 
 })();
