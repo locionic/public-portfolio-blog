@@ -63,7 +63,7 @@
       "static/chunks/596-a658b434dadd6520.js",
       "static/chunks/main-app-966024eb5b48890d.js",
       "static/chunks/685-46b9c657769ce184.js",
-      "static/chunks/313-a525d6dbb9545c24.js",
+      "static/chunks/313-75651c1d3fba74c4.js",
       "static/chunks/app/blog/page-ae74bb6b8d8b6b08.js"
     ],
     "/bucketlist/page": [
@@ -100,7 +100,7 @@
       "static/chunks/596-a658b434dadd6520.js",
       "static/chunks/main-app-966024eb5b48890d.js",
       "static/chunks/685-46b9c657769ce184.js",
-      "static/chunks/313-a525d6dbb9545c24.js",
+      "static/chunks/313-75651c1d3fba74c4.js",
       "static/chunks/app/tags/[tag]/page-8586bf83359a3b30.js"
     ],
     "/project/[...slug]/page": [
@@ -122,7 +122,7 @@
       "static/chunks/596-a658b434dadd6520.js",
       "static/chunks/main-app-966024eb5b48890d.js",
       "static/chunks/685-46b9c657769ce184.js",
-      "static/chunks/313-a525d6dbb9545c24.js",
+      "static/chunks/313-75651c1d3fba74c4.js",
       "static/chunks/app/blog/page/[page]/page-8d00ce7b0eb9d942.js"
     ]
   }

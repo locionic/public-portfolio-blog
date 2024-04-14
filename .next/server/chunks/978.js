@@ -51,7 +51,7 @@ const Tag = ({ text })=>{
 var siteMetadata = __webpack_require__(68248);
 var siteMetadata_default = /*#__PURE__*/__webpack_require__.n(siteMetadata);
 ;// CONCATENATED MODULE: ./app/tag-data.json
-const tag_data_namespaceObject = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1}');
+const tag_data_namespaceObject = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1,"python":2,"debug":3,"react":1,"sql":1}');
 ;// CONCATENATED MODULE: ./layouts/ListLayoutWithTags.tsx
 /* eslint-disable jsx-a11y/anchor-is-valid */ /* __next_internal_client_entry_do_not_use__ default auto */ 
 

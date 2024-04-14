@@ -374,7 +374,7 @@ function TagPage({ params }) {
 /***/ 99752:
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1}');
+module.exports = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1,"python":2,"debug":3,"react":1,"sql":1}');
 
 /***/ })
 
