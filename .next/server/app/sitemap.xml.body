@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://tailwind-nextjs-starter-blog.vercel.app/</loc>
-<lastmod>2024-04-14</lastmod>
+<lastmod>2024-04-15</lastmod>
 </url>
 <url>
 <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog</loc>
-<lastmod>2024-04-14</lastmod>
+<lastmod>2024-04-15</lastmod>
 </url>
 <url>
 <loc>https://tailwind-nextjs-starter-blog.vercel.app/projects</loc>
-<lastmod>2024-04-14</lastmod>
+<lastmod>2024-04-15</lastmod>
 </url>
 <url>
 <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags</loc>
-<lastmod>2024-04-14</lastmod>
+<lastmod>2024-04-15</lastmod>
 </url>
 <url>
 <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/N4</loc>
@@ -37,7 +37,11 @@
 <lastmod>2024-04-12T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/sql-query</loc>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-sql-query</loc>
 <lastmod>2024-04-12T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/top-9-websites-to-learn</loc>
+<lastmod>2024-04-15T00:00:00.000Z</lastmod>
 </url>
 </urlset>

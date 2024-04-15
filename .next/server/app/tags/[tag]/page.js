@@ -374,7 +374,7 @@ function TagPage({ params }) {
 /***/ 99752:
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1,"python":2,"debug":3,"react":1,"sql":1}');
+module.exports = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1,"python":2,"debug":3,"react":1,"mysql":1,"certificate":1,"course":1}');
 
 /***/ })
 
@@ -385,7 +385,7 @@ module.exports = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1,"python":2
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,194,86,327,793,199,978], () => (__webpack_exec__(90218)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,317,194,86,327,587,199,978], () => (__webpack_exec__(90218)));
 module.exports = __webpack_exports__;
 
 })();
