@@ -411,7 +411,7 @@ module.exports = JSON.parse('{"n4":1,"japanese":2,"language":2,"n5":1,"python":2
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,86,327,587], () => (__webpack_exec__(19157)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,86,327,793], () => (__webpack_exec__(19157)));
 module.exports = __webpack_exports__;
 
 })();

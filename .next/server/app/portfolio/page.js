@@ -1564,7 +1564,7 @@ const Work_Work = ()=>{
                                                 })
                                             }),
                                             work.codeLink && /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: work.projectLink,
+                                                href: work.codeLink,
                                                 target: "_blank",
                                                 rel: "noreferrer",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
@@ -1805,7 +1805,7 @@ var portfolio = __webpack_require__(24694);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,616,125,327,587,480], () => (__webpack_exec__(89436)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,910,309,616,125,327,793,480], () => (__webpack_exec__(89436)));
 module.exports = __webpack_exports__;
 
 })();
